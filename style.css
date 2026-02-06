@@ -4,6 +4,30 @@ body {
   padding: 0;
   line-height: 1.6;
 }
+nav {
+  background: white;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
 
 header {
   background: #222;
